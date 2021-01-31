@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" fbc:required="false">
-  <model metaid="iBioSim3" id="topModel" name="Created by iBioSim flatten routine" fbc:strict="false">
+  <model metaid="iBioSim7" id="topModel" name="Created by iBioSim flatten routine" fbc:strict="false">
     <annotation>
       <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
@@ -18,7 +18,7 @@
       <compartment id="Cell" spatialDimensions="3" size="1" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="iBioSim2" sboTerm="SBO:0000252" id="AmtR_protein" compartment="Cell" initialAmount="70" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+      <species metaid="iBioSim2" sboTerm="SBO:0000252" id="AmtR_protein" compartment="Cell" initialAmount="250" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
         <annotation>
           <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
             <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
@@ -39,7 +39,7 @@
           </ModelToSBOL>
         </annotation>
       </species>
-      <species metaid="iBioSim4" sboTerm="SBO:0000253" id="Ara_AraC_protein" compartment="Cell" initialAmount="60" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false">
+      <species metaid="iBioSim4" sboTerm="SBO:0000253" id="Ara_AraC_protein" compartment="Cell" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false">
         <annotation>
           <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
             <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
@@ -81,7 +81,7 @@
           </ModelToSBOL>
         </annotation>
       </species>
-      <species metaid="iBioSim6" sboTerm="SBO:0000252" id="LacI_protein" compartment="Cell" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false">
+      <species metaid="iBioSim6" sboTerm="SBO:0000252" id="LacI_protein" compartment="Cell" initialAmount="60" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false">
         <annotation>
           <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
             <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
@@ -102,7 +102,7 @@
           </ModelToSBOL>
         </annotation>
       </species>
-      <species metaid="iBioSim11" sboTerm="SBO:0000252" id="BetI_protein" compartment="Cell" initialAmount="70" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+      <species metaid="iBioSim11" sboTerm="SBO:0000252" id="BetI_protein" compartment="Cell" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
         <annotation>
           <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
             <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
@@ -123,7 +123,7 @@
           </ModelToSBOL>
         </annotation>
       </species>
-      <species metaid="iBioSim12" sboTerm="SBO:0000252" id="HlyIIR_protein" compartment="Cell" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+      <species metaid="iBioSim12" sboTerm="SBO:0000252" id="HlyIIR_protein" compartment="Cell" initialAmount="250" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
         <annotation>
           <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
             <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
@@ -144,7 +144,7 @@
           </ModelToSBOL>
         </annotation>
       </species>
-      <species metaid="iBioSim13" sboTerm="SBO:0000252" id="PhlF_protein" compartment="Cell" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+      <species metaid="iBioSim13" sboTerm="SBO:0000252" id="PhlF_protein" compartment="Cell" initialAmount="70" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
         <annotation>
           <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
             <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">

@@ -82,13 +82,13 @@ topModel_BetIpart_module_sub__ng = 2.000000
 topModel_PhlFpart_module_sub__ko_f = 0.033000
 
 Initial State Vector:
-AmtR_protein = 70.000000
-Ara_AraC_protein = 60.000000
+AmtR_protein = 250.000000
+Ara_AraC_protein = 0.000000
 TetR_protein = 60.000000
-LacI_protein = 0.000000
-BetI_protein = 70.000000
-HlyIIR_protein = 0.000000
-PhlF_protein = 0.000000
+LacI_protein = 60.000000
+BetI_protein = 0.000000
+HlyIIR_protein = 250.000000
+PhlF_protein = 70.000000
 YFP_protein = 70.000000
 topModel_AmtRpart_module_sub__pBAD = 2.000000
 topModel_AmtRpart_module_sub__pHlyIIR = 2.000000
@@ -102,20 +102,20 @@ topModel_HlyIIRpart_module_sub__pTet = 2.000000
 topModel_HlyIIRpart_module_sub__pBAD = 2.000000
 
 Initial Reaction Rate Array:
+0.052500
+0.052500
+0.187500
 0.000000
-0.052500
-0.000000
-0.052500
-0.052500
-0.185798
-0.049749
-0.049749
+0.187500
+0.000099
+0.000006
 0.000081
 0.049749
+0.000006
 0.000110
-0.049749
-0.000081
-0.185798
+0.000110
+0.000006
+0.000099
 0.000110
 
 Reaction Rate Equation Array:
