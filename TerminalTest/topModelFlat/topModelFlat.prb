@@ -1,0 +1,11 @@
+#Probability Data
+#Fri Sep 11 12:54:24 MDT 2020
+shadow=false
+y.axis=Percent
+plot.background.paint=-1
+gradient=false
+chart.background.paint=-1118482
+plot.range.grid.line.paint=-4144960
+visibleLegend=true
+title=topModelFlat simulation results
+x.axis=
