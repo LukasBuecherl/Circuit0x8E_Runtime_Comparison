@@ -1,2 +1,0 @@
-#total time-limit c0
-15000 2077 12923
