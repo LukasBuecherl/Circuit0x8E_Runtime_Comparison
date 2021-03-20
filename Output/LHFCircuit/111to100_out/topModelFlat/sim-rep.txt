@@ -1,0 +1,2 @@
+#total time-limit c0
+100000 31676 68324
