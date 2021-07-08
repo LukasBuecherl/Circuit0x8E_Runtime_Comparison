@@ -1,0 +1,2055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" fbc:required="false">
+  <model metaid="iBioSim3" id="topModel" name="Created by iBioSim flatten routine" fbc:strict="false">
+    <annotation>
+      <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+          <rdf:Description rdf:about="#iBioSim1">
+            <mts:ModuleDefinitions>
+              <rdf:Bag>
+                <rdf:li rdf:resource="http://www.async.utah.edu/topModel"/>
+              </rdf:Bag>
+            </mts:ModuleDefinitions>
+          </rdf:Description>
+        </rdf:RDF>
+      </ModelToSBOL>
+    </annotation>
+    <listOfCompartments>
+      <compartment id="Cell" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="iBioSim2" sboTerm="SBO:0000252" id="HlyIIR_protein" compartment="Cell" initialAmount="250" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim2">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/HlyIIR_protein/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/HlyIIR_protein/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="iBioSim5" sboTerm="SBO:0000252" id="LacI_protein" compartment="Cell" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim5">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LacI_protein/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LacI_protein/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="iBioSim6" id="Ara_AraC_protein" compartment="Cell" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim6">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/Ara_AraC_protein/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/Ara_AraC_protein/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="iBioSim7" sboTerm="SBO:0000252" id="BetI_protein" compartment="Cell" initialAmount="70" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim7">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/BetI_protein/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/BetI_protein/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="iBioSim9" sboTerm="SBO:0000252" id="PhlF_protein" compartment="Cell" initialAmount="70" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim9">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/PhlF_protein/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/PhlF_protein/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="iBioSim10" sboTerm="SBO:0000252" id="AmtR_protein" compartment="Cell" initialAmount="250" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim10">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/AmtR_protein/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/AmtR_protein/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="iBioSim12" sboTerm="SBO:0000252" id="TetR_protein" compartment="Cell" initialAmount="60" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim12">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/TetR_protein/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/TetR_protein/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="iBioSim13" sboTerm="SBO:0000252" id="YFP_protein" compartment="Cell" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim13">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/YFP_protein/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/YFP_protein/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="iBioSim16" sboTerm="SBO:0000252" id="BM3R1_protein" compartment="Cell" initialAmount="70" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim16">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/BM3R1_protein/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/BM3R1_protein/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_BetIpart_module_sub__iBioSim3" sboTerm="SBO:0000590" id="topModel_BetIpart_module_sub__pTet" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim3">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_BetIpart_module_sub__iBioSim4" sboTerm="SBO:0000590" id="topModel_BetIpart_module_sub__pHlyIIR" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim4">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_AmtRpart_module_sub__iBioSim2" sboTerm="SBO:0000590" id="topModel_AmtRpart_module_sub__pBM3R1" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim2">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_AmtRpart_module_sub__iBioSim3" sboTerm="SBO:0000590" id="topModel_AmtRpart_module_sub__pBAD" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim3">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_Inverter2_module_sub__iBioSim3" sboTerm="SBO:0000590" id="topModel_Inverter2_module_sub__Inverter2_fc" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim3">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter2/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter2/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter2/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_YFPpart_module_sub__iBioSim5" sboTerm="SBO:0000590" id="topModel_YFPpart_module_sub__pBetI" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim5">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_YFPpart_module_sub__iBioSim6" sboTerm="SBO:0000590" id="topModel_YFPpart_module_sub__pPhlF" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim6">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_Inverter1_module_sub__iBioSim3" sboTerm="SBO:0000590" id="topModel_Inverter1_module_sub__Inverter1_fc" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim3">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter1/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter1/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter1/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_PhlFpart_module_sub__iBioSim5" sboTerm="SBO:0000590" id="topModel_PhlFpart_module_sub__pTac" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim5">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+      <species metaid="topModel_PhlFpart_module_sub__iBioSim6" sboTerm="SBO:0000590" id="topModel_PhlFpart_module_sub__pAmtR" compartment="Cell" initialAmount="2" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim6">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart/1"/>
+                  </rdf:Bag>
+                </mts:ComponentDefinitions>
+                <mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart/1"/>
+                  </rdf:Bag>
+                </mts:FunctionalComponents>
+                <mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart/1"/>
+                  </rdf:Seq>
+                </mts:DNAComponents>
+                <mts:Strand>+</mts:Strand>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+      </species>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter metaid="iBioSim1" id="kd" name="Degradation rate" value="0.00075" constant="true"/>
+      <parameter metaid="iBioSim70" id="kc_f" name="Forward complex formation rate" value="0.05" constant="true"/>
+      <parameter metaid="iBioSim71" id="kc_r" name="Reverse complex formation rate" value="1" constant="true"/>
+      <parameter metaid="iBioSim72" id="nc" name="Stoichiometry of binding" value="2" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim1" id="topModel_BetIpart_module_sub__kr_f" name="Forward repression binding rate" value="0.5" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim14" id="topModel_BetIpart_module_sub__kr_r" name="Reverse repression binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim15" id="topModel_BetIpart_module_sub__ka_f" name="Forward activation binding rate" value="0.0033" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim16" id="topModel_BetIpart_module_sub__ka_r" name="Reverse activation binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim17" id="topModel_BetIpart_module_sub__ko_f" name="Forward RNAP binding rate" value="0.033" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim18" id="topModel_BetIpart_module_sub__ko_r" name="Reverse RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim19" id="topModel_BetIpart_module_sub__kao_f" name="Forward activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim20" id="topModel_BetIpart_module_sub__kao_r" name="Reverse activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim21" id="topModel_BetIpart_module_sub__nc" name="Stoichiometry of binding" value="2" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim22" id="topModel_BetIpart_module_sub__nr" name="Initial RNAP count" value="30" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim23" id="topModel_BetIpart_module_sub__ko" name="Open complex production rate" value="0.05" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim24" id="topModel_BetIpart_module_sub__kb" name="Basal production rate" value="0.0001" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim25" id="topModel_BetIpart_module_sub__ng" name="Initial promoter count" value="2" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim26" id="topModel_BetIpart_module_sub__np" name="Stoichiometry of production" value="10" constant="true"/>
+      <parameter metaid="topModel_BetIpart_module_sub__iBioSim27" id="topModel_BetIpart_module_sub__ka" name="Activated production rate" value="0.25" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim1" id="topModel_AmtRpart_module_sub__kr_f" name="Forward repression binding rate" value="0.5" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim14" id="topModel_AmtRpart_module_sub__kr_r" name="Reverse repression binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim15" id="topModel_AmtRpart_module_sub__ka_f" name="Forward activation binding rate" value="0.0033" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim16" id="topModel_AmtRpart_module_sub__ka_r" name="Reverse activation binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim17" id="topModel_AmtRpart_module_sub__ko_f" name="Forward RNAP binding rate" value="0.033" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim18" id="topModel_AmtRpart_module_sub__ko_r" name="Reverse RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim19" id="topModel_AmtRpart_module_sub__kao_f" name="Forward activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim20" id="topModel_AmtRpart_module_sub__kao_r" name="Reverse activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim21" id="topModel_AmtRpart_module_sub__nc" name="Stoichiometry of binding" value="2" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim22" id="topModel_AmtRpart_module_sub__nr" name="Initial RNAP count" value="30" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim23" id="topModel_AmtRpart_module_sub__ko" name="Open complex production rate" value="0.05" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim24" id="topModel_AmtRpart_module_sub__kb" name="Basal production rate" value="0.0001" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim25" id="topModel_AmtRpart_module_sub__ng" name="Initial promoter count" value="2" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim26" id="topModel_AmtRpart_module_sub__np" name="Stoichiometry of production" value="10" constant="true"/>
+      <parameter metaid="topModel_AmtRpart_module_sub__iBioSim27" id="topModel_AmtRpart_module_sub__ka" name="Activated production rate" value="0.25" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim1" id="topModel_Inverter2_module_sub__kr_f" name="Forward repression binding rate" value="0.5" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim9" id="topModel_Inverter2_module_sub__kr_r" name="Reverse repression binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim10" id="topModel_Inverter2_module_sub__ka_f" name="Forward activation binding rate" value="0.0033" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim11" id="topModel_Inverter2_module_sub__ka_r" name="Reverse activation binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim12" id="topModel_Inverter2_module_sub__ko_f" name="Forward RNAP binding rate" value="0.033" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim13" id="topModel_Inverter2_module_sub__ko_r" name="Reverse RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim14" id="topModel_Inverter2_module_sub__kao_f" name="Forward activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim15" id="topModel_Inverter2_module_sub__kao_r" name="Reverse activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim16" id="topModel_Inverter2_module_sub__nc" name="Stoichiometry of binding" value="2" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim17" id="topModel_Inverter2_module_sub__nr" name="Initial RNAP count" value="30" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim18" id="topModel_Inverter2_module_sub__ko" name="Open complex production rate" value="0.05" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim19" id="topModel_Inverter2_module_sub__kb" name="Basal production rate" value="0.0001" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim20" id="topModel_Inverter2_module_sub__ng" name="Initial promoter count" value="2" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim21" id="topModel_Inverter2_module_sub__np" name="Stoichiometry of production" value="10" constant="true"/>
+      <parameter metaid="topModel_Inverter2_module_sub__iBioSim22" id="topModel_Inverter2_module_sub__ka" name="Activated production rate" value="0.25" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim1" id="topModel_YFPpart_module_sub__kr_f" name="Forward repression binding rate" value="0.5" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim14" id="topModel_YFPpart_module_sub__kr_r" name="Reverse repression binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim15" id="topModel_YFPpart_module_sub__ka_f" name="Forward activation binding rate" value="0.0033" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim16" id="topModel_YFPpart_module_sub__ka_r" name="Reverse activation binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim17" id="topModel_YFPpart_module_sub__ko_f" name="Forward RNAP binding rate" value="0.033" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim18" id="topModel_YFPpart_module_sub__ko_r" name="Reverse RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim19" id="topModel_YFPpart_module_sub__kao_f" name="Forward activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim20" id="topModel_YFPpart_module_sub__kao_r" name="Reverse activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim21" id="topModel_YFPpart_module_sub__nc" name="Stoichiometry of binding" value="2" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim22" id="topModel_YFPpart_module_sub__nr" name="Initial RNAP count" value="30" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim23" id="topModel_YFPpart_module_sub__ko" name="Open complex production rate" value="0.05" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim24" id="topModel_YFPpart_module_sub__kb" name="Basal production rate" value="0.0001" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim25" id="topModel_YFPpart_module_sub__ng" name="Initial promoter count" value="2" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim26" id="topModel_YFPpart_module_sub__np" name="Stoichiometry of production" value="10" constant="true"/>
+      <parameter metaid="topModel_YFPpart_module_sub__iBioSim27" id="topModel_YFPpart_module_sub__ka" name="Activated production rate" value="0.25" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim1" id="topModel_Inverter1_module_sub__kr_f" name="Forward repression binding rate" value="0.5" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim9" id="topModel_Inverter1_module_sub__kr_r" name="Reverse repression binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim10" id="topModel_Inverter1_module_sub__ka_f" name="Forward activation binding rate" value="0.0033" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim11" id="topModel_Inverter1_module_sub__ka_r" name="Reverse activation binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim12" id="topModel_Inverter1_module_sub__ko_f" name="Forward RNAP binding rate" value="0.033" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim13" id="topModel_Inverter1_module_sub__ko_r" name="Reverse RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim14" id="topModel_Inverter1_module_sub__kao_f" name="Forward activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim15" id="topModel_Inverter1_module_sub__kao_r" name="Reverse activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim16" id="topModel_Inverter1_module_sub__nc" name="Stoichiometry of binding" value="2" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim17" id="topModel_Inverter1_module_sub__nr" name="Initial RNAP count" value="30" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim18" id="topModel_Inverter1_module_sub__ko" name="Open complex production rate" value="0.05" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim19" id="topModel_Inverter1_module_sub__kb" name="Basal production rate" value="0.0001" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim20" id="topModel_Inverter1_module_sub__ng" name="Initial promoter count" value="2" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim21" id="topModel_Inverter1_module_sub__np" name="Stoichiometry of production" value="10" constant="true"/>
+      <parameter metaid="topModel_Inverter1_module_sub__iBioSim22" id="topModel_Inverter1_module_sub__ka" name="Activated production rate" value="0.25" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim1" id="topModel_PhlFpart_module_sub__kr_f" name="Forward repression binding rate" value="0.5" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim14" id="topModel_PhlFpart_module_sub__kr_r" name="Reverse repression binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim15" id="topModel_PhlFpart_module_sub__ka_f" name="Forward activation binding rate" value="0.0033" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim16" id="topModel_PhlFpart_module_sub__ka_r" name="Reverse activation binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim17" id="topModel_PhlFpart_module_sub__ko_f" name="Forward RNAP binding rate" value="0.033" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim18" id="topModel_PhlFpart_module_sub__ko_r" name="Reverse RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim19" id="topModel_PhlFpart_module_sub__kao_f" name="Forward activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim20" id="topModel_PhlFpart_module_sub__kao_r" name="Reverse activated RNAP binding rate" value="1" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim21" id="topModel_PhlFpart_module_sub__nc" name="Stoichiometry of binding" value="2" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim22" id="topModel_PhlFpart_module_sub__nr" name="Initial RNAP count" value="30" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim23" id="topModel_PhlFpart_module_sub__ko" name="Open complex production rate" value="0.05" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim24" id="topModel_PhlFpart_module_sub__kb" name="Basal production rate" value="0.0001" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim25" id="topModel_PhlFpart_module_sub__ng" name="Initial promoter count" value="2" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim26" id="topModel_PhlFpart_module_sub__np" name="Stoichiometry of production" value="10" constant="true"/>
+      <parameter metaid="topModel_PhlFpart_module_sub__iBioSim27" id="topModel_PhlFpart_module_sub__ka" name="Activated production rate" value="0.25" constant="true"/>
+    </listOfParameters>
+    <listOfConstraints>
+      <constraint metaid="c0">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <lt/>
+            <ci> YFP_protein </ci>
+            <cn type="integer"> 10 </cn>
+          </apply>
+        </math>
+      </constraint>
+    </listOfConstraints>
+    <listOfReactions>
+      <reaction metaid="iBioSim77" id="BM3R1_degradation_interaction" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/topModel/BM3R1_degradation_interaction"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfReactants>
+          <speciesReference metaid="iBioSim25" species="BM3R1_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim25">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/topModel/BM3R1_protein"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> BM3R1_protein </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="iBioSim78" id="PhlF_degradation_interaction" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/topModel/PhlF_degradation_interaction"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfReactants>
+          <speciesReference metaid="iBioSim26" species="PhlF_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim26">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/topModel/PhlF_protein"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> PhlF_protein </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="iBioSim80" id="YFP_degradation_interaction" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/topModel/YFP_degradation_interaction"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfReactants>
+          <speciesReference metaid="iBioSim32" species="YFP_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim32">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/topModel/YFP_protein"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> YFP_protein </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="iBioSim83" id="BetI_degradation_interaction" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/topModel/BetI_degradation_interaction"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfReactants>
+          <speciesReference metaid="iBioSim39" species="BetI_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim39">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/topModel/BetI_protein"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> BetI_protein </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_BetIpart_module_sub__iBioSim7" sboTerm="SBO:0000589" id="topModel_BetIpart_module_sub__BetI_protein_interaction_0" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim7">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/BetI_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/HlyIIR_protein_pHlyIIR_repression/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/TetR_protein_pTet_repression/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_BetIpart_module_sub___iBioSim9" species="BetI_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim9">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/BetI_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_BetIpart_module_sub__pTet">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/HlyIIR_protein_pHlyIIR_repression/BetIpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/TetR_protein_pTet_repression/BetIpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/BetI_protein_interaction/BetIpart_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_BetIpart_module_sub___iBioSim8" sboTerm="SBO:0000020" species="HlyIIR_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim8">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/HlyIIR_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> topModel_BetIpart_module_sub__pTet </ci>
+                    <ci> topModel_BetIpart_module_sub__ko </ci>
+                    <ci> topModel_BetIpart_module_sub__ko_f </ci>
+                  </apply>
+                  <ci> topModel_BetIpart_module_sub__ko_r </ci>
+                </apply>
+                <ci> topModel_BetIpart_module_sub__nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_BetIpart_module_sub__ko_f </ci>
+                    <ci> topModel_BetIpart_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_BetIpart_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> topModel_BetIpart_module_sub__kr_f </ci>
+                      <ci> topModel_BetIpart_module_sub__kr_r </ci>
+                    </apply>
+                    <ci> HlyIIR_protein </ci>
+                  </apply>
+                  <ci> topModel_BetIpart_module_sub__nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_BetIpart_module_sub__iBioSim10" sboTerm="SBO:0000589" id="topModel_BetIpart_module_sub__BetI_protein_interaction_1" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim10">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/BetI_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/HlyIIR_protein_pHlyIIR_repression/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/TetR_protein_pTet_repression/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_BetIpart_module_sub___iBioSim12" species="BetI_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim12">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/BetI_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_BetIpart_module_sub__pHlyIIR">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/HlyIIR_protein_pHlyIIR_repression/BetIpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/TetR_protein_pTet_repression/BetIpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/BetI_protein_interaction/BetIpart_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_BetIpart_module_sub___iBioSim11" sboTerm="SBO:0000020" species="TetR_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim11">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/BetIpart_module/TetR_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> topModel_BetIpart_module_sub__pHlyIIR </ci>
+                    <ci> topModel_BetIpart_module_sub__ko </ci>
+                    <ci> topModel_BetIpart_module_sub__ko_f </ci>
+                  </apply>
+                  <ci> topModel_BetIpart_module_sub__ko_r </ci>
+                </apply>
+                <ci> topModel_BetIpart_module_sub__nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_BetIpart_module_sub__ko_f </ci>
+                    <ci> topModel_BetIpart_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_BetIpart_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> topModel_BetIpart_module_sub__kr_f </ci>
+                      <ci> topModel_BetIpart_module_sub__kr_r </ci>
+                    </apply>
+                    <ci> TetR_protein </ci>
+                  </apply>
+                  <ci> topModel_BetIpart_module_sub__nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_AmtRpart_module_sub__iBioSim7" sboTerm="SBO:0000589" id="topModel_AmtRpart_module_sub__AmtR_protein_interaction_0" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim7">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/AmtR_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/Ara_AraC_protein_pBAD_activation/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/BM3R1_protein_pBM3R1_repression/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_AmtRpart_module_sub___iBioSim9" species="AmtR_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim9">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/AmtR_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_AmtRpart_module_sub__pBM3R1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/Ara_AraC_protein_pBAD_activation/AmtRpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/BM3R1_protein_pBM3R1_repression/AmtRpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/AmtR_protein_interaction/AmtRpart_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_AmtRpart_module_sub___iBioSim8" sboTerm="SBO:0000459" species="Ara_AraC_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim8">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/Ara_AraC_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> topModel_AmtRpart_module_sub__pBM3R1 </ci>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> topModel_AmtRpart_module_sub__kb </ci>
+                        <ci> topModel_AmtRpart_module_sub__ko_f </ci>
+                      </apply>
+                      <ci> topModel_AmtRpart_module_sub__ko_r </ci>
+                    </apply>
+                    <ci> topModel_AmtRpart_module_sub__nr </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> topModel_AmtRpart_module_sub__ka </ci>
+                        <ci> topModel_AmtRpart_module_sub__kao_f </ci>
+                      </apply>
+                      <ci> topModel_AmtRpart_module_sub__kao_r </ci>
+                    </apply>
+                    <ci> topModel_AmtRpart_module_sub__nr </ci>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <times/>
+                        <apply>
+                          <divide/>
+                          <ci> topModel_AmtRpart_module_sub__ka_f </ci>
+                          <ci> topModel_AmtRpart_module_sub__ka_r </ci>
+                        </apply>
+                        <ci> Ara_AraC_protein </ci>
+                      </apply>
+                      <ci> topModel_AmtRpart_module_sub__nc </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_AmtRpart_module_sub__ko_f </ci>
+                    <ci> topModel_AmtRpart_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_AmtRpart_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_AmtRpart_module_sub__kao_f </ci>
+                    <ci> topModel_AmtRpart_module_sub__kao_r </ci>
+                  </apply>
+                  <ci> topModel_AmtRpart_module_sub__nr </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <times/>
+                      <apply>
+                        <divide/>
+                        <ci> topModel_AmtRpart_module_sub__ka_f </ci>
+                        <ci> topModel_AmtRpart_module_sub__ka_r </ci>
+                      </apply>
+                      <ci> Ara_AraC_protein </ci>
+                    </apply>
+                    <ci> topModel_AmtRpart_module_sub__nc </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_AmtRpart_module_sub__iBioSim10" sboTerm="SBO:0000589" id="topModel_AmtRpart_module_sub__AmtR_protein_interaction_1" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim10">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/AmtR_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/Ara_AraC_protein_pBAD_activation/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/BM3R1_protein_pBM3R1_repression/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_AmtRpart_module_sub___iBioSim12" species="AmtR_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim12">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/AmtR_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_AmtRpart_module_sub__pBAD">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/Ara_AraC_protein_pBAD_activation/AmtRpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/BM3R1_protein_pBM3R1_repression/AmtRpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/AmtR_protein_interaction/AmtRpart_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_AmtRpart_module_sub___iBioSim11" sboTerm="SBO:0000020" species="BM3R1_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim11">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/AmtRpart_module/BM3R1_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> topModel_AmtRpart_module_sub__pBAD </ci>
+                    <ci> topModel_AmtRpart_module_sub__ko </ci>
+                    <ci> topModel_AmtRpart_module_sub__ko_f </ci>
+                  </apply>
+                  <ci> topModel_AmtRpart_module_sub__ko_r </ci>
+                </apply>
+                <ci> topModel_AmtRpart_module_sub__nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_AmtRpart_module_sub__ko_f </ci>
+                    <ci> topModel_AmtRpart_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_AmtRpart_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> topModel_AmtRpart_module_sub__kr_f </ci>
+                      <ci> topModel_AmtRpart_module_sub__kr_r </ci>
+                    </apply>
+                    <ci> BM3R1_protein </ci>
+                  </apply>
+                  <ci> topModel_AmtRpart_module_sub__nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_Inverter2_module_sub__iBioSim5" sboTerm="SBO:0000589" id="topModel_Inverter2_module_sub__BM3R1_protein_interaction" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim5">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter2_module/BM3R1_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter2_module/TetR_protein_pTet_repression/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_Inverter2_module_sub___iBioSim7" species="BM3R1_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim7">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/Inverter2_module/BM3R1_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_Inverter2_module_sub__Inverter2_fc">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/Inverter2_module/BM3R1_protein_interaction/Inverter2_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/Inverter2_module/TetR_protein_pTet_repression/Inverter2_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_Inverter2_module_sub___iBioSim6" sboTerm="SBO:0000020" species="TetR_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim6">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/Inverter2_module/TetR_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> topModel_Inverter2_module_sub__Inverter2_fc </ci>
+                    <ci> topModel_Inverter2_module_sub__ko </ci>
+                    <ci> topModel_Inverter2_module_sub__ko_f </ci>
+                  </apply>
+                  <ci> topModel_Inverter2_module_sub__ko_r </ci>
+                </apply>
+                <ci> topModel_Inverter2_module_sub__nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_Inverter2_module_sub__ko_f </ci>
+                    <ci> topModel_Inverter2_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_Inverter2_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> topModel_Inverter2_module_sub__kr_f </ci>
+                      <ci> topModel_Inverter2_module_sub__kr_r </ci>
+                    </apply>
+                    <ci> TetR_protein </ci>
+                  </apply>
+                  <ci> topModel_Inverter2_module_sub__nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_YFPpart_module_sub__iBioSim7" sboTerm="SBO:0000589" id="topModel_YFPpart_module_sub__YFP_protein_interaction_0" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim7">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/YFP_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/PhlF_protein_pPhlF_repression/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/BetI_protein_pBetI_repression/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_YFPpart_module_sub___iBioSim9" species="YFP_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim9">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/YFP_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_YFPpart_module_sub__pBetI">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/PhlF_protein_pPhlF_repression/YFPpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/YFP_protein_interaction/YFPpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/BetI_protein_pBetI_repression/YFPpart_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_YFPpart_module_sub___iBioSim8" sboTerm="SBO:0000020" species="PhlF_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim8">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/PhlF_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> topModel_YFPpart_module_sub__pBetI </ci>
+                    <ci> topModel_YFPpart_module_sub__ko </ci>
+                    <ci> topModel_YFPpart_module_sub__ko_f </ci>
+                  </apply>
+                  <ci> topModel_YFPpart_module_sub__ko_r </ci>
+                </apply>
+                <ci> topModel_YFPpart_module_sub__nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_YFPpart_module_sub__ko_f </ci>
+                    <ci> topModel_YFPpart_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_YFPpart_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> topModel_YFPpart_module_sub__kr_f </ci>
+                      <ci> topModel_YFPpart_module_sub__kr_r </ci>
+                    </apply>
+                    <ci> PhlF_protein </ci>
+                  </apply>
+                  <ci> topModel_YFPpart_module_sub__nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_YFPpart_module_sub__iBioSim10" sboTerm="SBO:0000589" id="topModel_YFPpart_module_sub__YFP_protein_interaction_1" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim10">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/YFP_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/PhlF_protein_pPhlF_repression/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/BetI_protein_pBetI_repression/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_YFPpart_module_sub___iBioSim12" species="YFP_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim12">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/YFP_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_YFPpart_module_sub__pPhlF">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/PhlF_protein_pPhlF_repression/YFPpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/YFP_protein_interaction/YFPpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/BetI_protein_pBetI_repression/YFPpart_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_YFPpart_module_sub___iBioSim11" sboTerm="SBO:0000020" species="BetI_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim11">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/YFPpart_module/BetI_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> topModel_YFPpart_module_sub__pPhlF </ci>
+                    <ci> topModel_YFPpart_module_sub__ko </ci>
+                    <ci> topModel_YFPpart_module_sub__ko_f </ci>
+                  </apply>
+                  <ci> topModel_YFPpart_module_sub__ko_r </ci>
+                </apply>
+                <ci> topModel_YFPpart_module_sub__nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_YFPpart_module_sub__ko_f </ci>
+                    <ci> topModel_YFPpart_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_YFPpart_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> topModel_YFPpart_module_sub__kr_f </ci>
+                      <ci> topModel_YFPpart_module_sub__kr_r </ci>
+                    </apply>
+                    <ci> BetI_protein </ci>
+                  </apply>
+                  <ci> topModel_YFPpart_module_sub__nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_Inverter1_module_sub__iBioSim5" sboTerm="SBO:0000589" id="topModel_Inverter1_module_sub__HlyIIR_protein_interaction" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim5">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter1_module/HlyIIR_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/Inverter1_module/Ara_AraC_protein_pBAD_activation/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_Inverter1_module_sub___iBioSim7" species="HlyIIR_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim7">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/Inverter1_module/HlyIIR_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_Inverter1_module_sub__Inverter1_fc">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/Inverter1_module/HlyIIR_protein_interaction/Inverter1_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/Inverter1_module/Ara_AraC_protein_pBAD_activation/Inverter1_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_Inverter1_module_sub___iBioSim6" sboTerm="SBO:0000459" species="Ara_AraC_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim6">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/Inverter1_module/Ara_AraC_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> topModel_Inverter1_module_sub__Inverter1_fc </ci>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> topModel_Inverter1_module_sub__kb </ci>
+                        <ci> topModel_Inverter1_module_sub__ko_f </ci>
+                      </apply>
+                      <ci> topModel_Inverter1_module_sub__ko_r </ci>
+                    </apply>
+                    <ci> topModel_Inverter1_module_sub__nr </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> topModel_Inverter1_module_sub__ka </ci>
+                        <ci> topModel_Inverter1_module_sub__kao_f </ci>
+                      </apply>
+                      <ci> topModel_Inverter1_module_sub__kao_r </ci>
+                    </apply>
+                    <ci> topModel_Inverter1_module_sub__nr </ci>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <times/>
+                        <apply>
+                          <divide/>
+                          <ci> topModel_Inverter1_module_sub__ka_f </ci>
+                          <ci> topModel_Inverter1_module_sub__ka_r </ci>
+                        </apply>
+                        <ci> Ara_AraC_protein </ci>
+                      </apply>
+                      <ci> topModel_Inverter1_module_sub__nc </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_Inverter1_module_sub__ko_f </ci>
+                    <ci> topModel_Inverter1_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_Inverter1_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_Inverter1_module_sub__kao_f </ci>
+                    <ci> topModel_Inverter1_module_sub__kao_r </ci>
+                  </apply>
+                  <ci> topModel_Inverter1_module_sub__nr </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <times/>
+                      <apply>
+                        <divide/>
+                        <ci> topModel_Inverter1_module_sub__ka_f </ci>
+                        <ci> topModel_Inverter1_module_sub__ka_r </ci>
+                      </apply>
+                      <ci> Ara_AraC_protein </ci>
+                    </apply>
+                    <ci> topModel_Inverter1_module_sub__nc </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_PhlFpart_module_sub__iBioSim7" sboTerm="SBO:0000589" id="topModel_PhlFpart_module_sub__PhlF_protein_interaction_0" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim7">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/PhlF_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/LacI_protein_pTac_repression/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/AmtR_protein_pAmtR_repression/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_PhlFpart_module_sub___iBioSim9" species="PhlF_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim9">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/PhlF_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_PhlFpart_module_sub__pTac">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/PhlF_protein_interaction/PhlFpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/LacI_protein_pTac_repression/PhlFpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/AmtR_protein_pAmtR_repression/PhlFpart_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_PhlFpart_module_sub___iBioSim8" sboTerm="SBO:0000020" species="LacI_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim8">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/LacI_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> topModel_PhlFpart_module_sub__pTac </ci>
+                    <ci> topModel_PhlFpart_module_sub__ko </ci>
+                    <ci> topModel_PhlFpart_module_sub__ko_f </ci>
+                  </apply>
+                  <ci> topModel_PhlFpart_module_sub__ko_r </ci>
+                </apply>
+                <ci> topModel_PhlFpart_module_sub__nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_PhlFpart_module_sub__ko_f </ci>
+                    <ci> topModel_PhlFpart_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_PhlFpart_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> topModel_PhlFpart_module_sub__kr_f </ci>
+                      <ci> topModel_PhlFpart_module_sub__kr_r </ci>
+                    </apply>
+                    <ci> LacI_protein </ci>
+                  </apply>
+                  <ci> topModel_PhlFpart_module_sub__nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="topModel_PhlFpart_module_sub__iBioSim10" sboTerm="SBO:0000589" id="topModel_PhlFpart_module_sub__PhlF_protein_interaction_1" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim10">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/PhlF_protein_interaction/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/LacI_protein_pTac_repression/1"/>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/AmtR_protein_pAmtR_repression/1"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfProducts>
+          <speciesReference metaid="topModel_PhlFpart_module_sub___iBioSim12" species="PhlF_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim12">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/PhlF_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="topModel_PhlFpart_module_sub__pAmtR">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/PhlF_protein_interaction/PhlFpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/LacI_protein_pTac_repression/PhlFpart_fc/1"/>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/AmtR_protein_pAmtR_repression/PhlFpart_fc/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="topModel_PhlFpart_module_sub___iBioSim11" sboTerm="SBO:0000020" species="AmtR_protein">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim11">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/PhlFpart_module/AmtR_protein/1"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> topModel_PhlFpart_module_sub__pAmtR </ci>
+                    <ci> topModel_PhlFpart_module_sub__ko </ci>
+                    <ci> topModel_PhlFpart_module_sub__ko_f </ci>
+                  </apply>
+                  <ci> topModel_PhlFpart_module_sub__ko_r </ci>
+                </apply>
+                <ci> topModel_PhlFpart_module_sub__nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> topModel_PhlFpart_module_sub__ko_f </ci>
+                    <ci> topModel_PhlFpart_module_sub__ko_r </ci>
+                  </apply>
+                  <ci> topModel_PhlFpart_module_sub__nr </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> topModel_PhlFpart_module_sub__kr_f </ci>
+                      <ci> topModel_PhlFpart_module_sub__kr_r </ci>
+                    </apply>
+                    <ci> AmtR_protein </ci>
+                  </apply>
+                  <ci> topModel_PhlFpart_module_sub__nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="iBioSim84" id="AmtR_degradation_interaction" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/topModel/AmtR_degradation_interaction"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfReactants>
+          <speciesReference metaid="iBioSim40" species="AmtR_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim40">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/topModel/AmtR_protein"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> AmtR_protein </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="iBioSim82" id="HlyIIR_degradation_interaction" reversible="false" fast="false" compartment="Cell">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://www.async.utah.edu/topModel/HlyIIR_degradation_interaction"/>
+                  </rdf:Bag>
+                </mts:Interactions>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSBOL>
+        </annotation>
+        <listOfReactants>
+          <speciesReference metaid="iBioSim38" species="HlyIIR_protein" stoichiometry="10" constant="true">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim38">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="http://www.async.utah.edu/topModel/HlyIIR_protein"/>
+                      </rdf:Bag>
+                    </mts:Participations>
+                  </rdf:Description>
+                </rdf:RDF>
+              </ModelToSBOL>
+            </annotation>
+          </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> HlyIIR_protein </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
